@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Nexa-Heavy";
+    src: url("../fonts/Nexa-Heavy.ttf");
+    
+}
+header{
+    position: fixed;
+    margin-top: 2em;
+    background-color: white;
+    width: 110%;
+    margin-left: -1em;
+}
+nav{
+    height: 0em;
+}
+main{
+    height: 20em;
+}
+
+ul{
+    display:inline-block;
+    margin-left: 17em;
+}
+li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 1.5em;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 20px; 
+    color: rgb(63, 37, 88);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color: rgb(162, 118, 204);
+}
+h1{
+    margin-left: 2em;
+    margin-top: 1em;
+    font-size: 35px;
+    color: rgb(29, 29, 71);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin-left: 1em;
+    margin-top: 2em;
+    font-size: 80px;
+    display: inline-block;
+    font-family: Nexa-Heavy;
+    color: rgb(26, 26, 70);
+}
+section
+{
+    margin-left: 1em;
+    width: 50%;
+}
+.boton{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    color: white;
+    margin-left: 8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+.boton:hover,.boton1:hover,.boton2:hover{
+    background-color: rgb(38, 31, 73);
+    transition: 0.5s;
+}
+
+#text{
+    margin-left: 4.5em;
+    margin-top: -3em;
+    font-size: 20px;
+    width: 70%;
+    color: rgb(71, 42, 99);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.boton1{
+    margin-left: 6.5em;
+    margin-top: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: none;
+    border-radius: 2em;
+    background-color: blueviolet;
+    color: white;
+
+}
+body {
+    background-image: url('../img/Diseño sin título.png');
+    background-position: 50% 10%;
+    background-size: contain; /* O usa 'cover' si quieres que la imagen cubra todo */
+    background-repeat: no-repeat;
+}
+div{
+    margin-top: -3em;
+}
+footer{
+    height: 18em;
+}
+.tel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(26, 26, 59);
+    width: 65%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+#redes{
+    margin-left: 3em;
+}
+#facebook{
+    margin-bottom: 5px;
+}
+.lets{
+    font-family: Nexa-Heavy;
+    font-size: 40px;
+    color: rgb(26, 26, 59);
+    width: 70%;
+    margin-top: 10em;
+    margin-left: 1.3em;
+}
+.nombres{
+    margin-left: 45em;
+    margin-top: -16em;
+    margin-bottom: 1em;
+}
+.extra{
+    margin-left: 45em;
+    display: grid;
+    margin-top: 0em;
+    width: 30%;
+    gap: 15px;
+}
+.boton2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 1em;
+    border: none;
+    border-radius: 2em;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 45em;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+.contact{
+    color: blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 36em;
+    margin-left: 3em;
+    margin-bottom: -22em;
+    font-size: 18px;
+}
+input[name="nombres"], input[name="apellidos"]{
+    width: 32%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4em;
+}
+
+input[type="email"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 4em;
+}
+
+input[name="sugerencias"]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 8em;
+}
+.rights{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -2.5em;
+    color: rgb(49, 48, 48);
+}
